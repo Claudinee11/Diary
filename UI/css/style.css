@@ -5,14 +5,8 @@
 
 body{
     background-color: wheat;
-    background-image: url(/UI/images/photo-1496483648148-47c686dc86a8.jpg)no repeat;
+    background-image: url(/UI/images/photo-1466695108335-44674aa2058b.jpg);
 }
-/* .header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-} */
 
 .logo{
     height: 15%;
@@ -47,11 +41,12 @@ nav li a{
     padding:30px;
     margin: 10px;
     flex-grow: 1;
-    /* flex: 1 0 50px; */
+    
      font-size:25px; 
     text-decoration: none;
-    /* text-align: start; */
+    
     color:bisque;
+    flex-wrap: wrap;
 }
 
  nav{
@@ -62,40 +57,111 @@ nav li a{
     flex-grow:grow; 
     flex: 1 0 auto;
 }
-/* nav li a:hover{
-    background-color: rgba(230,122,0,0.3);
-} */
+
 .content{
 
     display:flex;
-    
-    
+    flex: 1 0 40vh;
+
 
 }
+
+
 .content h1{
     font-size: 25px;
-    margin-left:180px;
+    height: 80vh;
+    text-align: justify;
 }
 
+.articles{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+   
+}
 
+.article{
+    flex: 1 1 300px;
 
+  
+}
 
+ .content1{
+    background-color:#ddd4d4;
+    text-align: justify;
+    padding: 10px;
+}
 
+.content2{
+    background-color:#ddd4d4;
+    text-align: justify;
+    padding: 10px;
+}
 
+.content3{
+    background-color:#ddd4d4;
+    text-align: justify;
+    padding: 10px;
+}
 
+.box-green{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    color: blue;
+    align-items: center;
+    margin-left: 90px;
+}
+.red{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    color: red;
+    align-items: center;
+    margin-left: 90px;
+}
+.blue{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    color: blue;
+    align-items: center;
+    margin-left: 90px;
+}
+.box-green{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    color: green;
+    align-items: center;
+    margin-left: 90px;
+}
 
-
-
-
-
-
-
-
-
-
+ 
 
 .footer{
-    text-align: center;
-    display:flex;
-    flex: 1 0 auto;
+    background-color: rgb(69, 69, 70);
+    padding: 20px;
+    color: bisque;
+    height: 1vh;
+    font-size: 10px;
+    text-align: center; 
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

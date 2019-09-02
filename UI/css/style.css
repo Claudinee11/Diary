@@ -3,24 +3,103 @@
     margin: 0;
 }
 
-body{
-    background-color: wheat;
-    background-image: url(/UI/images/photo-1466695108335-44674aa2058b.jpg);
+/* header{
+    background-image: url('/UI/assets/207705-167160-R3L8T8D-1000-McCarleyBeth_Travel_ANightAtDeadvlei_SS-1000-541576bc48-1484729696.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
+ul{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+      padding:5px 10px;  
+     padding: 50px;
+    border: 1px solid transparent;
+     transition: 0.6s ease;
+      
+}
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+ 
+.main{
+     max-width: 1200px; 
+    margin: auto;
+}
+.logo img{
+    float: left;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+color:#fff;
+font-size:70px;
+
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+   
+}
+.btn{
+    border: 1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+} */
+
+
+
+
+
+
+
+
+
+
+  body{
+    
+     background-image: url(/UI/images/successful-team-work-group-young-260nw-572805178.webp);
+    background-size: cover;
+    
+} 
 
 .logo{
     height: 15%;
     width:10%;
-    margin-right:0px;
-    
+   
 }
+
 #project{
     color: bisque;
      font-size: 25px; 
-    padding: 30px;
+    padding: 20px;
     margin-left: 0px;
     align-items: flex-start;
-}
+} 
 
 .container{
     width: 80%;
@@ -41,6 +120,7 @@ nav li a{
     padding:30px;
     margin: 10px;
     flex-grow: 1;
+ 
     
      font-size:25px; 
     text-decoration: none;
@@ -58,10 +138,14 @@ nav li a{
     flex: 1 0 auto;
 }
 
-.content{
-
-    display:flex;
-    flex: 1 0 40vh;
+ .content{
+    flex: 1 0 30vh;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+     flex-grow: 1;
+     text-align:justify;
+    
 
 
 }
@@ -81,7 +165,7 @@ nav li a{
 }
 
 .article{
-    flex: 1 1 300px;
+    flex: 1 1 50vh;
 
   
 }
@@ -89,19 +173,38 @@ nav li a{
  .content1{
     background-color:#ddd4d4;
     text-align: justify;
-    padding: 10px;
+     padding: 10px; 
+}
+.content1 a{
+    text-decoration: none;
+    margin-left:5px;
+    color: #456990;
+    
 }
 
 .content2{
     background-color:#ddd4d4;
     text-align: justify;
-    padding: 10px;
+     padding: 10px; 
+}
+.content2 a{
+    text-decoration: none;
+    margin-left:20px;
+    color: #456990;
+    
+    
 }
 
 .content3{
     background-color:#ddd4d4;
     text-align: justify;
-    padding: 10px;
+     padding: 10px; 
+}
+.content3 a{
+    text-decoration: none;
+    margin-left:5px;
+    color: #456990;
+   
 }
 
 .box-green{
@@ -139,7 +242,201 @@ nav li a{
     color: green;
     align-items: center;
     margin-left: 90px;
+} 
+/*sign up and sign in*/
+
+/* .form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    padding: 50px;
+    background:#d4d2d5;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items:center;
+    
+
 }
+.banner-form,
+.banner-info{
+    text-align: center;
+    margin: 80px 0;
+}
+
+.banner-form h1{
+    text-transform: uppercase;
+    color:#191919;
+    font-size:25px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.banner-form .input-field{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+.banner-form .fa{
+font-size: 30px;
+margin-right: 20px;
+align-self: flex-end;
+}
+.banner-form input{
+    font-size: 25px;
+    background: transparent; 
+    border: none;
+    border-bottom:3px solid  #c97c5d;
+}
+.banner-form input::placeholder{
+    color: #c97c5d;
+}
+.banner-form button{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+     background: #c97c5d; 
+    color: #d4d2d5;
+    border-radius: 10px;
+}
+ .banner-form p{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #191919;
+} 
+ .banner-form a{
+    text-decoration: none;
+    margin-left:5px;
+    color: #456990;
+} 
+
+@media screen and(mini-width:992px){
+    #banner{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        min-height: 80vh;
+        border-radius: 20px;
+    }
+} */
+ 
+
+/*my sign up page well*/
+ /* body{
+    background: url(/UI/assets/FB_IMG_15111679456439073.jpg);
+    background-size: cover;
+    font-family: arial;
+}  */
+
+/*on 27/08/2019*/
+ .wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 75px;
+}
+h2{
+    text-align: center;
+
+}
+input[type=text],input[type=password], input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0,0,0,0.10);
+    outline:none;
+    border: none;
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    outline:none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+input[type=submit]:hover{
+    background: #003366;
+    opacity: 0.7;
+}
+#main{ 
+    /* text-decoration:#60adde; */
+       display: flex; 
+    flex-wrap: wrap; 
+    font-size: 18px;
+    padding: 10px;
+    color: #60adde;
+}
+#main a{
+    text-decoration: none;
+    margin-left:5px;
+    color: #fff;
+    text-transform: uppercase;
+
+} 
+/*mine code*/
+
+.av{
+    color: black;
+    text-align: center;
+    padding: 1%;
+}
+.Your-day{
+
+  margin-left: 35px;
+    margin-right: 40px;  
+    text-align:justify;
+    display: flex;
+     flex-wrap: wrap; 
+ 
+     
+}
+.alin-form {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 15px; 
+    justify-content: space-around;
+    
+}
+input[type=add]{
+    width: 10%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    outline:none;
+    border: none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left:100px;
+    
+} 
+
+    
+
 
  
 
@@ -152,6 +449,27 @@ nav li a{
     text-align: center; 
     
 }
+
+
+/*saving my deleted code her*/
+/* .button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+   
+}
+.btn{
+    border: 1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+} */
+/*continue home page*/
 
 
 
